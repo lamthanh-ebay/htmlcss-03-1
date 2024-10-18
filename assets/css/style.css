@@ -251,8 +251,7 @@ a {
 /* Hero Media */
 .hero-media {
     max-width: 56.67%;
-    display: flex;
-    column-gap: 20px;
+
     position: relative;
     margin: 0 25px 0 auto;
 }
@@ -284,6 +283,11 @@ a {
     left: 50px;
 }
 
+.hero-media__images {
+    display: flex;
+    column-gap: 20px;
+}
+
 .hero-media__image {
     width: 202px;
     height: 466px;
@@ -291,7 +295,7 @@ a {
     border-radius: 999px;
 }
 
-.hero-media__image:nth-of-type(2) {
+.hero-media__image:nth-child(2) {
     margin-top: 77px;
 }
 
