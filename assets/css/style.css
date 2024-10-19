@@ -327,6 +327,7 @@ a {
 .ads-brand__image {
     height: 33px;
     transition: all linear 0.15s;
+    user-select: none;
 }
 
 .ads-brand__image:hover {
