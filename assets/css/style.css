@@ -304,3 +304,31 @@ a {
     height: 500px;
     background-color: orange;
 }
+
+/* Ads Brand */
+.ads-brand {
+    padding: 42px 0;
+}
+
+.ads-brand-wrap {
+    padding: 78px 121px 72px;
+    background-color: #e2eddf;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all linear 0.15s;
+}
+
+.ads-brand-wrap:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.ads-brand__image {
+    height: 33px;
+    transition: all linear 0.15s;
+}
+
+.ads-brand__image:hover {
+    transform: scale(1.2);
+}
