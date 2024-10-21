@@ -572,6 +572,11 @@ a {
     position: absolute;
     right: -9px;
     bottom: 8px;
+    font-family: "Public Sans";
+    font-size: 1rem;
+    color: var(--text-color-1);
+    font-weight: 500;
+    line-height: 1.4;
 }
 
 .about-media__info-heading,
@@ -583,8 +588,6 @@ a {
 
 .about-media__info-heading {
     display: block;
-    color: var(--text-color-1);
-    font-family: "Public Sans";
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 1;
@@ -594,20 +597,12 @@ a {
     display: block;
     margin-top: 6px;
     color: var(--text-color-3);
-    font-family: "Public Sans";
-    font-size: 1rem;
-    line-height: 1.4;
 }
 
 .about-media__number {
     display: block;
     margin-top: 10px;
     padding-bottom: 5px;
-    color: var(--text-color-1);
-    font-family: "Public Sans";
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.4;
     position: relative;
 }
 
@@ -638,11 +633,6 @@ a {
 .about-media__info-loading {
     display: block;
     margin-top: 3px;
-    color: var(--text-color-1);
-    font-family: "Public Sans";
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.4;
     text-align: right;
 }
 
@@ -667,11 +657,6 @@ a {
 }
 
 .about-media__teams-label {
-    color: var(--text-color-1);
-    font-family: "Public Sans";
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.4;
 }
 
 .about-media__teams-avatar {
