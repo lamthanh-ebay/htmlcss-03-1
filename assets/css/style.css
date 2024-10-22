@@ -417,6 +417,7 @@ img {
     height: 33px;
     transition: all linear 0.15s;
     user-select: none;
+    cursor: pointer;
 }
 
 .ads-brand__image:hover {
@@ -755,9 +756,9 @@ img {
     padding-left: 30px;
 }
 
-.process-item:hover .process-item__heading {
+/* .process-item:hover .process-item__heading {
     text-decoration: underline;
-}
+} */
 
 .process-item:hover .process-item__num {
     color: #83a17d;
@@ -767,18 +768,27 @@ img {
     text-shadow: 1px 0 0 currentColor;
 }
 
-.process-item:nth-of-type(1) {
+.process-item:hover {
     border-radius: 33px;
     background-color: #e2eddf;
     padding: 57px 0 76px 20px;
 }
 
-.process-item:nth-of-type(1) .process-item__heading {
+/* .process-item:nth-of-type(1) .process-item__heading {
     text-decoration: none;
+} */
+
+.process-item:nth-of-type(1) {
+    height: 154px;
+    padding-top: 57px;
+    padding-bottom: 76px;
+}
+.process-item:nth-of-type(1):hover {
+    height: 216px;
 }
 
-.process-item:nth-of-type(1)::after {
-    display: none;
+.process-item:hover .process-item__more {
+    display: block;
 }
 
 .process-item::after {
@@ -788,7 +798,7 @@ img {
     height: 3px;
     background: linear-gradient(180deg, #83a17d 4.17%, rgba(131, 161, 125, 0) 36.46%);
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
 }
 
@@ -813,7 +823,7 @@ img {
 }
 
 .process-item__more {
-    display: block;
+    display: none;
     position: absolute;
     top: calc(100% + 14px);
     left: 3px;
@@ -1280,6 +1290,10 @@ img {
     font-weight: 500;
     line-height: 1.4;
     padding: 4px 0;
+}
+
+.footer-nav__link:hover {
+    text-decoration: underline;
 }
 
 /* Copyright */
