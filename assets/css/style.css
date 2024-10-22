@@ -756,16 +756,8 @@ img {
     padding-left: 30px;
 }
 
-/* .process-item:hover .process-item__heading {
-    text-decoration: underline;
-} */
-
 .process-item:hover .process-item__num {
     color: #83a17d;
-}
-
-.process-item:hover .process-item__more {
-    text-shadow: 1px 0 0 currentColor;
 }
 
 .process-item:hover {
@@ -773,10 +765,6 @@ img {
     background-color: #e2eddf;
     padding: 57px 0 76px 20px;
 }
-
-/* .process-item:nth-of-type(1) .process-item__heading {
-    text-decoration: none;
-} */
 
 .process-item:nth-of-type(1) {
     height: 154px;
