@@ -1137,6 +1137,7 @@ img {
     font-weight: 500;
     line-height: var(--height);
     text-transform: uppercase;
+    transition: all linear 0.15s;
 }
 
 .blog-item:hover .blog-item__label {
