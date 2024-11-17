@@ -36,6 +36,9 @@
 
         <!-- Style CSS -->
         <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!-- Animation -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <!-- Header -->
@@ -69,7 +72,7 @@
             <section class="hero">
                 <div class="container">
                     <div class="hero-wrap">
-                        <div class="hero-content">
+                        <div class="hero-content" data-aos="zoom-in">
                             <h1 class="hero-content__heading heading-lv1 ba-cham line-clamp-3">
                                 We’re a creative design agency.
                             </h1>
@@ -115,6 +118,7 @@
                             <div class="hero-media__bg"></div>
                             <svg
                                 class="hero-media__flying-star"
+                                data-aos="zoom-in-left"
                                 width="589"
                                 height="363"
                                 viewBox="0 0 589 363"
@@ -147,13 +151,29 @@
                                 </defs>
                             </svg>
                             <figure class="hero-media__images">
-                                <img src="./assets/img/hero-image-1.avif" alt="" class="hero-media__image" />
-                                <img src="./assets/img/hero-image-2.avif" alt="" class="hero-media__image" />
-                                <img src="./assets/img/hero-image-3.avif" alt="" class="hero-media__image" />
+                                <img
+                                    src="./assets/img/hero-image-1.avif"
+                                    alt=""
+                                    class="hero-media__image"
+                                    data-aos="fade-up"
+                                />
+                                <img
+                                    src="./assets/img/hero-image-2.avif"
+                                    alt=""
+                                    class="hero-media__image"
+                                    data-aos="fade-down"
+                                />
+                                <img
+                                    src="./assets/img/hero-image-3.avif"
+                                    alt=""
+                                    class="hero-media__image"
+                                    data-aos="fade-up"
+                                />
                             </figure>
 
                             <svg
                                 class="hero-media__flying-star"
+                                data-aos="zoom-in-right"
                                 width="589"
                                 height="363"
                                 viewBox="0 0 589 363"
@@ -193,7 +213,7 @@
             <!-- Ads Brand -->
             <section class="ads-brand">
                 <div class="container">
-                    <div class="ads-brand-wrap">
+                    <div class="ads-brand-wrap" data-aos="flip-down">
                         <img src="./assets/img/Google.png" alt="Google" class="ads-brand__image" />
                         <img src="./assets/img/slack.png" alt="slack" class="ads-brand__image" />
                         <img src="./assets/img/Agworld.png" alt="Agworld" class="ads-brand__image" />
@@ -209,12 +229,15 @@
                     <div class="services-wrap">
                         <!-- Services-head -->
                         <div class="services-head">
-                            <p class="section-title ba-cham line-clamp-1">OUR SERVICES</p>
+                            <p class="section-title ba-cham line-clamp-1" data-aos="fade-up">OUR SERVICES</p>
                             <div class="services-row__control">
-                                <h2 class="services-heading section-heading section-heading__hr heading-lv2 ba-cham">
+                                <h2
+                                    class="services-heading section-heading section-heading__hr heading-lv2 ba-cham"
+                                    data-aos="fade-up"
+                                >
                                     We offer a wide range of design services
                                 </h2>
-                                <div class="control">
+                                <div class="control" data-aos="fade-up">
                                     <button class="control-arrow__wrap">
                                         <svg
                                             class="control-arrow__icon"
@@ -259,7 +282,7 @@
                         <!-- Services-body -->
                         <div class="services-body">
                             <!-- Services-item 1 -->
-                            <article class="services-item">
+                            <article class="services-item" data-aos="fade-right">
                                 <figure class="services-item__image">
                                     <a href="#!">
                                         <img src="./assets/img/services-item1.avif" alt="" class="services-item__img" />
@@ -279,7 +302,7 @@
                             </article>
 
                             <!-- Services-item 2 -->
-                            <article class="services-item">
+                            <article class="services-item" data-aos="zoom-in">
                                 <figure class="services-item__image">
                                     <a href="#!">
                                         <img src="./assets/img/services-item2.avif" alt="" class="services-item__img" />
@@ -299,7 +322,7 @@
                             </article>
 
                             <!-- Services-item 3 -->
-                            <article class="services-item">
+                            <article class="services-item" data-aos="fade-left">
                                 <figure class="services-item__image">
                                     <a href="#!">
                                         <img src="./assets/img/services-item3.avif" alt="" class="services-item__img" />
@@ -329,10 +352,25 @@
                         <div class="about-wrap__bg"></div>
                         <!-- About media -->
                         <div class="about-media">
-                            <img src="./assets/icon/flying-star.svg" alt="" class="about-media__flying-star" />
+                            <img
+                                src="./assets/icon/flying-star.svg"
+                                alt=""
+                                class="about-media__flying-star"
+                                data-aos="zoom-in-left"
+                            />
                             <figure class="about-media__images">
-                                <img src="./assets/img/about-1.avif" alt="About US" class="about-media__image" />
-                                <img src="./assets/img/about-2.avif" alt="" class="about-media__image" />
+                                <img
+                                    src="./assets/img/about-1.avif"
+                                    alt="About US"
+                                    class="about-media__image"
+                                    data-aos="fade-up"
+                                />
+                                <img
+                                    src="./assets/img/about-2.avif"
+                                    alt=""
+                                    class="about-media__image"
+                                    data-aos="fade-up"
+                                />
                             </figure>
 
                             <!-- About info -->
@@ -372,22 +410,24 @@
 
                         <!-- About content -->
                         <article class="about-content">
-                            <p class="about-content__title section-title ba-cham line-clamp-1">ABOUT US</p>
-                            <h2 class="about-content__heading section-heading heading-lv2 ba-cham">
+                            <p class="about-content__title section-title ba-cham line-clamp-1" data-aos="fade-up">
+                                ABOUT US
+                            </p>
+                            <h2 class="about-content__heading section-heading heading-lv2 ba-cham" data-aos="fade-up">
                                 We are an extention of your creative team
                             </h2>
-                            <p class="about-content__desc ba-cham line-clamp-3">
+                            <p class="about-content__desc ba-cham line-clamp-3" data-aos="fade-up">
                                 At the start of every project, we cusomizea detailed project plan together with you set
                                 exectationns ensure alighment and define key milestones and deiverbles.
                             </p>
-                            <div class="about-content__row">
+                            <div class="about-content__row" data-aos="fade-up">
                                 <p class="about-content__number">48%</p>
                                 <p class="about-content__number-desc ba-cham">
                                     Are you strive for two things in design simplicity and clarity. Great design is born
                                     of those two things
                                 </p>
                             </div>
-                            <div class="about-content__row">
+                            <div class="about-content__row" data-aos="fade-up">
                                 <p class="about-content__number">26%</p>
                                 <p class="about-content__number-desc ba-cham">
                                     Are you strive for two things in design simplicity and clarity. Great design is born
@@ -403,15 +443,18 @@
             <section class="process">
                 <div class="container">
                     <div class="process-wrap">
-                        <p class="process-title section-title ba-cham line-clamp-1">OUR PROCESS</p>
-                        <h2 class="process-heading section-heading section-heading__hr heading-lv2 ba-cham">
+                        <p class="process-title section-title ba-cham line-clamp-1" data-aos="fade-up">OUR PROCESS</p>
+                        <h2
+                            class="process-heading section-heading section-heading__hr heading-lv2 ba-cham"
+                            data-aos="fade-up"
+                        >
                             A simple ,yet effective three step process
                         </h2>
 
                         <!-- Process list -->
                         <div class="process-list">
                             <!-- Process item 1 -->
-                            <article class="process-item">
+                            <article class="process-item" data-aos="fade-up">
                                 <p class="process-item__num">01.</p>
                                 <h3>
                                     <a
@@ -430,7 +473,7 @@
                             </article>
 
                             <!-- Process item 2 -->
-                            <article class="process-item">
+                            <article class="process-item" data-aos="fade-up">
                                 <p class="process-item__num">02.</p>
                                 <h3>
                                     <a
@@ -446,7 +489,7 @@
                             </article>
 
                             <!-- Process item 3 -->
-                            <article class="process-item">
+                            <article class="process-item" data-aos="fade-up">
                                 <p class="process-item__num">03.</p>
                                 <h3>
                                     <a
@@ -470,16 +513,19 @@
                 <div class="container">
                     <div class="projects-wrap">
                         <div class="projects-row">
-                            <h2 class="projects-heading heading-lv2 section-heading section-heading__hr ba-cham">
+                            <h2
+                                class="projects-heading heading-lv2 section-heading section-heading__hr ba-cham"
+                                data-aos="fade-up"
+                            >
                                 A quick glance of our past projects
                             </h2>
                             <div class="projects-info">
-                                <p class="projects-info__desc">
+                                <p class="projects-info__desc" data-aos="fade-up">
                                     Are you strive for the fast project simplicity and clarity. Great design is born of
                                     those two things.
                                 </p>
                                 <a href="#!" class="projects-info__link">
-                                    <div class="projects-info__more">
+                                    <div class="projects-info__more" data-aos="fade-up">
                                         <span class="projects-info__more-text">Browse all Projects</span>
                                         <svg
                                             class="projects-info__more-icon"
@@ -509,6 +555,7 @@
                                     src="./assets/img/projects-video-bg.avif"
                                     alt="A quick glance of our past projects"
                                     class="projects-video__bg"
+                                    data-aos="fade-up"
                                 />
                             </figure>
                             <button class="projects-video__pay">
@@ -581,10 +628,10 @@
                     <div class="future-wrap">
                         <!-- Future top -->
                         <div class="future-top">
-                            <h2 class="future-heading heading-lv2 ba-cham">
+                            <h2 class="future-heading heading-lv2 ba-cham" data-aos="fade-up">
                                 Share the features that help your customers
                             </h2>
-                            <p class="future-desc ba-cham line-clamp-3">
+                            <p class="future-desc ba-cham line-clamp-3" data-aos="fade-up">
                                 You already know that the customer experience doesn't end with a sale — it's an ongoing
                                 work in progress that companies should be constantly seeking to improve and iterate on.
                             </p>
@@ -593,7 +640,7 @@
                         <!-- Future list -->
                         <div class="future-list">
                             <!-- Future item 1 -->
-                            <article class="future-item">
+                            <article class="future-item" data-aos="fade-right">
                                 <a href="#!">
                                     <img src="./assets/icon/future-icon-1.svg" alt="Blog" class="future-item__icon" />
                                 </a>
@@ -607,7 +654,7 @@
                             </article>
 
                             <!-- Future item 2 -->
-                            <article class="future-item">
+                            <article class="future-item" data-aos="zoom-in">
                                 <a href="#!">
                                     <img
                                         src="./assets/icon/future-icon-2.svg"
@@ -627,7 +674,7 @@
                             </article>
 
                             <!-- Future item 3 -->
-                            <article class="future-item">
+                            <article class="future-item" data-aos="fade-left">
                                 <a href="#!">
                                     <img
                                         src="./assets/icon/future-icon-3.svg"
@@ -656,12 +703,15 @@
                     <div class="blog-wrap">
                         <!-- Blog top -->
                         <div class="blog-top">
-                            <p class="section-title">BLOG & ARTICLES</p>
+                            <p class="section-title" data-aos="fade-up">BLOG & ARTICLES</p>
                             <div class="blog-top__row">
-                                <h2 class="blog-top__heading heading-lv2 section-heading section-heading__hr .ba-cham">
+                                <h2
+                                    class="blog-top__heading heading-lv2 section-heading section-heading__hr .ba-cham"
+                                    data-aos="fade-up"
+                                >
                                     Take a look at our latest articles and resources
                                 </h2>
-                                <p class="blog-top__desc ba-cham">
+                                <p class="blog-top__desc ba-cham" data-aos="fade-up">
                                     The best agency are the ones ideated with clients. we corporate your ideas with
                                     memorable
                                 </p>
@@ -671,7 +721,7 @@
                         <!-- Blog list -->
                         <div class="blog-list">
                             <!-- Blog item 1 -->
-                            <article class="blog-item">
+                            <article class="blog-item" data-aos="fade-right">
                                 <figure class="blog-item__image">
                                     <a href="#!"
                                         ><img
@@ -696,7 +746,7 @@
                             </article>
 
                             <!-- Blog item 2 -->
-                            <article class="blog-item">
+                            <article class="blog-item" data-aos="zoom-in">
                                 <figure class="blog-item__image">
                                     <a href="#!"
                                         ><img
@@ -721,7 +771,7 @@
                             </article>
 
                             <!-- Blog item 3 -->
-                            <article class="blog-item">
+                            <article class="blog-item" data-aos="fade-left">
                                 <figure class="blog-item__image">
                                     <a href="#!"
                                         ><img
@@ -867,5 +917,12 @@
                 <div class="copyright"></div>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+                anchorPlacement: "top-bottom",
+            });
+        </script>
     </body>
 </html>
